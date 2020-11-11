@@ -94,7 +94,7 @@ These endpoints are for getting certain data about a specific server
       true, // dxp active
       "Ander 🇳🇴", // dxp host
       27576791, // time remaining
-      0 // 
+      0 // unk
     ],
     "limit": 128, // player limit
     "region": "OS",
