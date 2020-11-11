@@ -4,7 +4,7 @@ These endpoints are for getting certain data about a specific server
 
 ### `/weather.json` - Get server weather
 
-```json
+```jsonc
 {
   "time_remaining": 1497, // Time in seconds until next weather change
   "current_weather": "drizzling" // The current weather on the
@@ -13,7 +13,7 @@ These endpoints are for getting certain data about a specific server
 
 ### `/airline.json` - Get airline info
 
-```json
+```jsonc
 {
   "875": [ // source id?
     "Velum", // vehicle model / vehicle name
@@ -32,7 +32,7 @@ These endpoints are for getting certain data about a specific server
 
 ### `/players.json` - Get simple player info
 
-```json
+```jsonc
 {
   "players": [
     [
@@ -46,7 +46,7 @@ These endpoints are for getting certain data about a specific server
 
 ### `/map/positions.json` - Get map positions
 
-```json
+```jsonc
 {
   "players": [
     [
@@ -86,7 +86,7 @@ These endpoints are for getting certain data about a specific server
 
 ### `/widget/players.json` Get advanced player info
 
-```json
+```jsonc
 {
   "server": {
     "number": "1",
