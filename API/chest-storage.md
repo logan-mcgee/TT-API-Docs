@@ -1,8 +1,8 @@
-# `Storage Data`
+# Storage/Chest data
 
-`/chest/`
+`/chest/[type]`
 
-- Fetch vehicle storage: `/chest/u[vRPID]veh_[vehClass]_[model]`
+- Fetch vehicle storage: `u[vRPID]veh_[vehClass]_[model]`
 - Fetch home storage: `u[vRPID]home`
 - Fetch backback storage: `u[vRPID]backpack`
 - Fetch faction storage: `self_storage:[vRPID]:faq_[factionid]:chest`
